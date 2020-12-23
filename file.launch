@@ -1,0 +1,13 @@
+<launch>
+	<group ns="boat1">
+		<node name="boat_simulator" pkg="tp3" type="boattp3" output="screen"/>
+		<node name="controllerboat" pkg="tp3" type="controllerboattp3" output="screen"/>
+		<node name="nacelle_simulator" pkg="tp3" type="nacelletp3" output="screen"/>
+		<node name="controllernacelle" pkg="tp3" type="controllernacelletp3" output="screen"/>
+                <node name="target" pkg="tp3" type="targettp3" output="screen"/>
+		<param name="initialx" type="double" value="10.0"/>
+		<param name="initialy" type="double" value="0.0"/>
+		<param name="boatframe" type="string" value="boat1"/>
+		<param name="nacelleframe" type="string" value="nacelle1"/>
+	</group>
+</launch>
