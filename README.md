@@ -71,8 +71,8 @@ Compile using:
 >
 > roslaunch tp3 file.launch
 
-# Work with Framagit
-
+# Work with the remote GitHub repository
+ 
 You want to push your modifications to the GitHub repository
 
 > cd ~/workspace_ros/src/tp3
